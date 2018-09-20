@@ -21,7 +21,7 @@ const knex = require('knex')({
 const server = restify.createServer({
   name: "myapp",
   version: "1.0.0",
-  key: fs.readFileSync('./key.pem'), //on current folder
+  key: fs.readFileSync('./key.pem'),
   certificate: fs.readFileSync('./cert.pem')
 });
 

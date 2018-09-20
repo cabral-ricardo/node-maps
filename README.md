@@ -14,13 +14,13 @@ npm install -- save restify
 npm install -- save knex
 ```
 
-## Install database mysql 
+## Install database 'mysql' 
 
 ```
 npm install -- save mysql
 ```
 
-## Script create data base
+## Script Create DataBase
 
 ```sql
 CREATE DATABASE IF NOT EXISTS `db`;
@@ -35,6 +35,8 @@ CREATE TABLE IF NOT EXISTS `db`.`places` (
 ENGINE = InnoDB
 ```
 
+## Create key google maps 
+
 ```
-npm install
+https://developers.google.com/maps/documentation/javascript/get-api-key 
 ```
