@@ -2,6 +2,23 @@
 
 This application will save geolocation from browsers in MySQL
 
+## Install setting with server using 'restify' 
+
+```
+npm install -- save restify
+```
+
+## Install setting with database mysql using 'knex'
+
+```
+npm install -- save knex
+```
+
+## Install database mysql 
+
+```
+npm install -- save mysql
+```
 
 ## Script create data base
 

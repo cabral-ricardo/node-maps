@@ -1,10 +1,12 @@
 const restify = require("restify");
+
 var fs = require('fs');
 
 const googleMapsClient = require('@google/maps').createClient({
   key: 'AIzaSyAVbUQNNGKFeUMHDNZCilrkNklhPE83wKk',
   Promise: Promise
 });
+
 const knex = require('knex')({
     client: 'mysql',
     connection: {
