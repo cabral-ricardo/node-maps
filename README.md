@@ -35,6 +35,9 @@ CREATE TABLE IF NOT EXISTS `db`.`places` (
 ENGINE = InnoDB
 ```
 
+### Download mysql installer
+https://dev.mysql.com/downloads/installer/
+
 ## Create key google maps 
 
 ```
